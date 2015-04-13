@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-  <manifest> 
- 
+  <manifest>
+
 <!-- Remotes -->
    <remote name="gh" fetch="git://github.com/" />
- 
+
 <!-- Repo Removes -->
    <remove-project name="CyanogenMod/android_vendor_cm" />
    <remove-project name="CyanogenMod/android_build" />
@@ -12,21 +12,21 @@
    <remove-project name="CyanogenMod/android_frameworks_base" />
    <remove-project name="CyanogenMod/android_external_sqlite" />
    <remove-project name="CyanogenMod/android_external_bluetooth_bluedroid" />
-   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" />
+   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-android-4.8" />
    <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
+   <remove-project name="packages/apps/Camera2" />
 
- 
 <!-- Repo Replacements -->
-   <project path="build" name="jgcaap/android_build" remote="gh" revision="new5" />
+   <project path="build" name="jgcaap/android_build" remote="gh" revision="new4" />
    <project path="art" name="jgcaap/android_art" remote="gh" revision="new"  />
-   <project path="external/libpng" name="jgcaap/android_external_libpng" remote="gh" revision="new" />
    <project path="external/sqlite" name="jgcaap/SQL" remote="gh" revision="new" />
    <project path="frameworks/av" name="jgcaap/android_frameworks_av" remote="gh" revision="new" />
    <project path="frameworks/base" name="jgcaap/android_frameworks_base" remote="gh" revision="new5" />
-   <project path="vendor/cm" name="jgcaap/CM_Vendor" remote="gh" revision="new" />
+   <project path="vendor/cm" name="jgcaap/CM_Vendor" remote="gh" revision="new"  />
    <project path="external/bluetooth/bluedroid" name="jgcaap/android_external_bluetooth_bluedroid" remote="gh" revision="new" />
    <project name="arter97/arm-linux-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="github" revision="cm-12.0" />
    <project name="arter97/arm-linux-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="github" revision="cm-12.0" />
+   <project name="jgcaap/CameraNext" path="packages/apps/CameraNext" remote="gh" revision="master" />
 
 <!-- New Repo Files -->
   <project name="arter97/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="github" revision="cm-12.0" />
@@ -39,5 +39,4 @@
   <project name="TheMuppets/proprietary_vendor_oppo" path="vendor/oppo" remote="gh" />
   <project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus" remote="gh" />
   <project name="CyanogenMod/android_frameworks_opt_connectivity" path="frameworks/opt/connectivity" remote="gh" revision="cm-11.0" />
- 
- </manifest>
+</manifest>
