@@ -14,7 +14,10 @@
    <remove-project name="CyanogenMod/android_external_bluetooth_bluedroid" />
    <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" />
    <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
-   <remove-project name="packages/apps/Camera2" />
+   <remove-project name="CyanogenMod/android_packages_apps_Camera2" />
+   <remove-project name="CyanogenMod/android_packages_apps_Calendar" />
+   <remove-project name="CyanogenMod/android_packages_apps_CMBugreport" />
+   <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
 
 <!-- Repo Replacements -->
    <project path="build" name="jgcaap/android_build" remote="gh" revision="new4" />
