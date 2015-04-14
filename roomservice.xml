@@ -20,27 +20,24 @@
    <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
 
 <!-- Repo Replacements -->
-   <project path="build" name="jgcaap/android_build" remote="gh" revision="new4" />
-   <project path="art" name="jgcaap/android_art" remote="gh" revision="new"  />
-   <project path="external/sqlite" name="jgcaap/SQL" remote="gh" revision="new" />
-   <project path="frameworks/av" name="jgcaap/android_frameworks_av" remote="gh" revision="new" />
-   <project path="frameworks/base" name="jgcaap/android_frameworks_base" remote="gh" revision="new5" />
-   <project path="vendor/cm" name="jgcaap/CM_Vendor" remote="gh" revision="new"  />
-   <project path="external/bluetooth/bluedroid" name="jgcaap/android_external_bluetooth_bluedroid" remote="gh" revision="new" />
+   <project path="build" name="jgcaap/build" remote="gh" revision="stable" />
+   <project path="art" name="jgcaap/art" remote="gh" revision="stable"  />
+   <project path="external/sqlite" name="jgcaap/sqlite" remote="gh" revision="stable" />
+   <project path="frameworks/av" name="jgcaap/frameworks_av" remote="gh" revision="stable" />
+   <project path="frameworks/base" name="jgcaap/frameworks_base" remote="gh" revision="stable" />
+   <project path="vendor/cm" name="jgcaap/vendor_cm" remote="gh" revision="stable"  />
+   <project path="external/bluetooth/bluedroid" name="jgcaap/bluetooth_bluedroid" remote="gh" revision="stable" />
    <project name="arter97/arm-linux-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="github" revision="cm-12.0" />
    <project name="arter97/arm-linux-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="github" revision="cm-12.0" />
    <project name="jgcaap/CameraNext" path="packages/apps/CameraNext" remote="gh" revision="master" />
 
 <!-- New Repo Files -->
   <project name="arter97/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="github" revision="cm-12.0" />
-  <project name="arter97/linaro-lto" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="github" revision="master" />
-  <project name="CyanogenMod/android_device_oneplus_bacon" path="device/oneplus/bacon" remote="gh" />
-  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="gh" />
-  <project name="CyanogenMod/android_device_oppo_msm8974-common" path="device/oppo/msm8974-common" remote="gh" />
-  <project name="CyanogenMod/android_device_oppo_common" path="device/oppo/common" remote="gh" revision="cm-12.0" />
-  <project name="CyanogenMod/android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="gh" />
-  <project name="TheMuppets/proprietary_vendor_oppo" path="vendor/oppo" remote="gh" />
-  <project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus" remote="gh" />
-  <project name="CyanogenMod/android_frameworks_opt_connectivity" path="frameworks/opt/connectivity" remote="gh" revision="cm-11.0" />
+  <project name="CyanogenMod/android_device_oneplus_bacon" path="device/oneplus/bacon" revision="cm-12.1" />
+  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="gh" revision="cm-12.1" />
+  <project name="CyanogenMod/android_device_oppo_msm8974-common" path="device/oppo/msm8974-common" remote="gh" revision="cm-12.1" />
+  <project name="CyanogenMod/android_device_oppo_common" path="device/oppo/common" remote="gh" revision="cm-12.1" />
+  <project name="jgcaap/NewKernel" path="kernel/oneplus/msm8974" remote="gh" remote="stable" />
+  <project name="TheMuppets/proprietary_vendor_oppo" path="vendor/oppo" remote="gh" revision="cm-12.1" />
+  <project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus" remote="gh" revision="cm-12.1" />
 </manifest>
-
