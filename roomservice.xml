@@ -7,22 +7,32 @@
 <!-- Repo Removes -->
    <remove-project name="CyanogenMod/android_vendor_cm" />
    <remove-project name="CyanogenMod/android_build" />
-   <remove-project name="CyanogenMod/android_art" />
    <remove-project name="CyanogenMod/android_frameworks_av" />
    <remove-project name="CyanogenMod/android_frameworks_base" />
    <remove-project name="CyanogenMod/android_external_sqlite" />
+   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" />
+   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
    <remove-project name="CyanogenMod/android_packages_apps_Camera2" />
+   <remove-project name="CyanogenMod/android_external_libpng" />
+   <remove-project name="CyanogenMod/android_external_dhcpcd" />
+   <remove-project name="CyanogenMod/android_external_bluetooth_bluedroid" />
+   <remove-project name="CyanogenMod/android_bionic" />
+   <remove-project name="CyanogenMod/android_system_core" />
 
 <!-- Repo Replacements -->
    <project path="vendor/cm" name="jgcaaprom/android_vendor_cm" remote="gh" revision="cm-12.1"  />
    <project path="build" name="jgcaaprom/android_build" remote="gh" revision="cm-12.1" />
-   <project path="art" name="jgcaaprom/android_art" remote="gh" revision="cm-12.1"  />
    <project path="frameworks/av" name="jgcaaprom/android_frameworks_av" remote="gh" revision="cm-12.1" />
    <project path="frameworks/base" name="jgcaaprom/android_frameworks_base" remote="gh" revision="cm-12.1" />
    <project path="external/sqlite" name="jgcaaprom/android_external_sqlite" remote="gh" revision="cm-12.1" />
-   <project name="jgcaap/arm-linux-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8l" remote="github" revision="cm-12.0" />
-   <project name="jgcaap/arm-linux-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8l" remote="github" revision="cm-12.0" />
+   <project path="external/libpng" name="jgcaaprom/android_external_libpng" remote="gh" revision="cm-12.1" />
+   <project path="external/dhcpcd" name="jgcaaprom/android_external_dhcpcd" remote="gh" revision="cm-12.1" />
+   <project path="external/bluetooth/bluedroid" name="jgcaaprom/android_external_bluetooth_bluedroid" remote="gh" revision="cm-12.1" />
+   <project path="bionic" name="jgcaaprom/android_bionic" remote="gh" revision="cm-12.1" />
+   <project path="system/core" name="jgcaaprom/android_system_core" remote="gh" revision="cm-12.1" />
    <project name="jgcaap/CameraNext" path="packages/apps/CameraNext" remote="gh" revision="master" />
+
+
 
 <!-- New Repo Files -->
   <project name="arter97/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="github" revision="cm-12.0" />
