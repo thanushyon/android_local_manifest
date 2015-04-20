@@ -11,13 +11,17 @@
    <remove-project name="CyanogenMod/android_frameworks_base" />
    <remove-project name="CyanogenMod/android_external_sqlite" />
    <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" />
-   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
    <remove-project name="CyanogenMod/android_packages_apps_Camera2" />
    <remove-project name="CyanogenMod/android_external_libpng" />
    <remove-project name="CyanogenMod/android_external_dhcpcd" />
    <remove-project name="CyanogenMod/android_external_bluetooth_bluedroid" />
-   <remove-project name="CyanogenMod/android_bionic" />
+   <remove-project name="CyanogenMod/android_frameworks_opt_bluetooth" />
+   <remove-project name="CyanogenMod/android_packages_apps_BluetoothExt" />
+   <remove-project name="CyanogenMod/android_packages_apps_Bluetooth" />
    <remove-project name="CyanogenMod/android_system_core" />
+   <remove-project name="CyanogenMod/android_hardware_libhardware" />
+   <remove-project name="CyanogenMod/android_system_media" />
+
 
 <!-- Repo Replacements -->
    <project path="vendor/cm" name="jgcaaprom/android_vendor_cm" remote="gh" revision="cm-12.1"  />
@@ -28,15 +32,19 @@
    <project path="external/libpng" name="jgcaaprom/android_external_libpng" remote="gh" revision="cm-12.1" />
    <project path="external/dhcpcd" name="jgcaaprom/android_external_dhcpcd" remote="gh" revision="cm-12.1" />
    <project path="external/bluetooth/bluedroid" name="jgcaaprom/android_external_bluetooth_bluedroid" remote="gh" revision="cm-12.1" />
-   <project path="bionic" name="jgcaaprom/android_bionic" remote="gh" revision="cm-12.1" />
    <project path="system/core" name="jgcaaprom/android_system_core" remote="gh" revision="cm-12.1" />
-   <project name="jgcaap/CameraNext" path="packages/apps/CameraNext" remote="gh" revision="master" />
+   <project name="jgcaaprom/CameraNext" path="packages/apps/CameraNext" remote="gh" revision="master" />
+ <project name="jgcaaprom/android_hardware_libhardware" path="hardware/libhardware" remote="gh" revision="cm-12.1" />
+ <project name="jgcaaprom/android_system_media" path="system/media" remote="gh" revision="cm-12.1" />
+   <project path="packages/apps/Bluetooth" name="jgcaaprom/android_packages_apps_Bluetooth" remote="gh" revision="cm-12.1" />
+   <project path="packages/apps/BluetoothExt" name="jgcaaprom/android_packages_apps_BluetoothExt" remote="gh" revision="cm-12.1" />
+   <project path="frameworks/opt/bluetooth" name="jgcaaprom/android_frameworks_opt_bluetooth" remote="gh" revision="cm-12.1" />
 
 
 
 <!-- New Repo Files -->
   <project name="arter97/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="github" revision="cm-12.0" />
-  <project name="CyanogenMod/android_device_oneplus_bacon" path="device/oneplus/bacon" revision="cm-12.1" />
+  <project name="jgcaaprom/android_device_oneplus_bacon" path="device/oneplus/bacon" revision="cm-12.1" />
   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="gh" revision="cm-12.1" />
   <project name="CyanogenMod/android_device_oppo_msm8974-common" path="device/oppo/msm8974-common" remote="gh" revision="cm-12.1" />
   <project name="CyanogenMod/android_device_oppo_common" path="device/oppo/common" remote="gh" revision="cm-12.1" />
