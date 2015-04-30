@@ -26,7 +26,7 @@
   <remove-project name="platform/external/chromium_org/third_party/icu" />
   <remove-project name="platform/external/chromium_org/third_party/freetype" />
   <remove-project name="platform/external/chromium_org/third_party/angle" />
-  <remove-project name="android_external_bluetooth_bluedroid" />
+  <remove-project name="CyanogenMod/android_external_bluetooth_bluedroid" />
   <remove-project name="CyanogenMod/android_bootable_recovery" />
   <remove-project name="CyanogenMod/android_external_wpa_supplicant_8" />
   <project name="jgcaaprom/android_external_bluetooth_bluedroid" remote="gh" revision="cm-12.1" />
