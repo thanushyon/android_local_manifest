@@ -27,6 +27,8 @@
   <remove-project name="platform/external/chromium_org/third_party/freetype" />
   <remove-project name="platform/external/chromium_org/third_party/angle" />
   <remove-project name="android_external_bluetooth_bluedroid" />
+  <remove-project name="CyanogenMod/android_bootable_recovery" />
+  <remove-project name="CyanogenMod/android_external_wpa_supplicant_8" />
   <project name="jgcaaprom/android_external_bluetooth_bluedroid" remote="gh" revision="cm-12.1" />
   <project name="jgcaaprom/android_vendor_cm" path="vendor/cm" remote="gh" revision="cm-12.1" />
   <project name="jgcaaprom/android_build" path="build" remote="gh" revision="cm-12.1" />
@@ -62,4 +64,6 @@
   <project name="jgcaaprom/android_prebuilt_ndk" path="prebuilts/ndk" remote="gh" revision="cm-12.1" />
   <project name="jgcaaprom/android_external_chromium_org_third_party_WebKit" path="external/chromium/org/third/party/WebKit" remote="gh" revision="cm-12.1" />
   <project name="jgcaaprom/android_external_chromium_org_v8" path="external/chromium/org/v8" remote="gh" revision="cm-12.1" />
+  <project name="jgcaaprom/android_bootable_recovery" path="bootable/recovery" remote="gh" revision="cm-12.1" />
+  <project name="jgcaaprom/android_external_wpa_supplicant_8" path="external/wpa/supplicant/8" remote="gh" revision="cm-12.1" />
 </manifest>
