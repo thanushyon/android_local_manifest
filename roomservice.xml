@@ -12,7 +12,7 @@
   <remove-project name="CyanogenMod/android_system_core" />
   <remove-project name="CyanogenMod/android_art" />
   <remove-project name="platform/external/webp" />
-  <remove-project name="CyanogenMod/android_prebuilt_ndk" />
+  <remove-project name="platform/ndk" />
   <remove-project name="platform/external/chromium_org/third_party/WebKit" />
   <remove-project name="platform/external/chromium_org/third_party/libjpeg_turbo" />
   <remove-project name="platform/external/chromium_org/third_party/webrtc" />
