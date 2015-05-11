@@ -11,6 +11,7 @@
   <remove-project name="CyanogenMod/android_external_dhcpcd" />
   <remove-project name="CyanogenMod/android_system_core" />
   <remove-project name="CyanogenMod/android_art" />
+  <remove-project name="platform/external/stlport" />
   <remove-project name="platform/external/webp" />
   <remove-project name="platform/prebuilts/ndk" />
   <remove-project name="platform/external/chromium_org/third_party/WebKit" />
@@ -26,9 +27,27 @@
   <remove-project name="platform/external/chromium_org/third_party/icu" />
   <remove-project name="platform/external/chromium_org/third_party/freetype" />
   <remove-project name="platform/external/chromium_org/third_party/angle" />
+  <remove-project name="platform/external/chromium-libpac" />
   <remove-project name="CyanogenMod/android_external_bluetooth_bluedroid" />
   <remove-project name="platform/external/chromium_org/third_party/libyuv" />
   <remove-project name="CyanogenMod/android_bootable_recovery" />
+  <remove-project name="CyanogenMod/android_bionic" />
+  <remove-project name="CyanogenMod/android_external_speex" />
+  <remove-project name="CyanogenMod/android_external_busybox" />
+  <remove-project name="CyanogenMod/android_external_dnsmasq" />
+  <remove-project name="CyanogenMod/android_frameworks_ex" />
+  <remove-project name="CyanogenMod/android_frameworks_wilhelm" />
+  <remove-project name="CyanogenMod/android_libcore" />
+  <remove-project name="platform/external/iputils" />
+  <project name="jgcaaprom/android_libcore" path="libcore" remote="gh" revision="cm-12.1" />
+  <project name="jgcaaprom/android_external_dnsmasq" path="external/dnsmasq" remote="gh" revision="cm-12.1" />
+  <project name="jgcaaprom/android_frameworks_wilhelm" path="frameworks/wilhelm" remote="gh" revision="cm-12.1" />
+  <project name="jgcaaprom/android_frameworks_ex" path="frameworks/ex" remote="gh" revision="cm-12.1" />
+  <project name="jgcaaprom/android_external_stlport" path="external/stlport" remote="gh" revision="cm-12.1" />
+  <project name="jgcaaprom/android_external_speex" path="external/speex" remote="gh" revision="cm-12.1" />
+  <project name="jgcaaprom/android_external_busybox" path="external/busybox" remote="gh" revision="cm-12.1" />
+  <project name="jgcaaprom/android_external_iputils" path="external/iputils" remote="gh" revision="cm-12.1" />
+  <project name="jgcaaprom/android_bionic" path="bionic" remote="gh" revision="cm-12.1" />
   <project name="jgcaaprom/android_external_bluetooth_bluedroid" path="external/bluetooth/bluedroid" remote="gh" revision="cm-12.1" />
   <project name="jgcaaprom/android_vendor_cm" path="vendor/cm" remote="gh" revision="cm-12.1" />
   <project name="jgcaaprom/android_build" path="build" remote="gh" revision="cm-12.1" />
@@ -52,6 +71,7 @@
   <project name="jgcaaprom/arm-linux-androideabi-5.1" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.1" remote="gh" revision="master" />
   <project name="jgcaaprom/android_external_webp" path="external/webp" remote="gh" revision="cm-11.0" />
   <project name="jgcaaprom/android_external_chromium_org" path="external/chromium_org" remote="gh" revision="cm-12.1" />
+  <project name="jgcaaprom/android_external_chromium-libpac" path="external/chromium-libpac" remote="gh" revision="cm-12.1" />
   <project name="jgcaaprom/android_external_chromium_org_third_party_angle" path="external/chromium_org/third_party/angle" remote="gh" revision="cm-12.1" />
   <project name="jgcaaprom/android_external_chromium_org_third_party_freetype" path="external/chromium_org/third_party/freetype" remote="gh" revision="cm-12.1" />
   <project name="jgcaaprom/android_external_chromium_org_third_party_icu" path="external/chromiu_org/third_party/icu" remote="gh" revision="cm-12.1" />
