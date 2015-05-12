@@ -64,4 +64,11 @@
   <project name="jgcaaprom/android_prebuilt_ndk" path="prebuilts/ndk" remote="gh" revision="cm-12.1" />
   <project name="jgcaaprom/android_external_chromium_org_third_party_WebKit" path="external/chromium_org/third_party/WebKit" remote="gh" revision="cm-12.1" />
   <project name="jgcaaprom/android_bootable_recovery" path="bootable/recovery" remote="gh" revision="cm-12.1" />
+
+
+<remove-project name="CyanogenMod/android_packages_apps_Settings" />
+<project path="packages/apps/Settings" name="thanushyon/android_packages_apps_Settings" remote="gh" revision="cm-12.1" />
+
+<project path="frameworks/base" name="thanushyon/android_frameworks_base" remote="gh" revision="cm-12.1" />
+
 </manifest>
