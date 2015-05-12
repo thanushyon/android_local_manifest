@@ -38,7 +38,6 @@
   <project name="jgcaaprom/android_external_iputils" path="external/iputils" remote="gh" revision="cm-12.1" />
   <project name="jgcaaprom/android_bionic" path="bionic" remote="gh" revision="cm-12.1" />
   <project name="jgcaaprom/android_external_bluetooth_bluedroid" path="external/bluetooth/bluedroid" remote="gh" revision="cm-12.1" />
-  <project name="jgcaaprom/android_build" path="build" remote="gh" revision="cm-12.1" />
   <project name="jgcaaprom/android_frameworks_av" path="frameworks/av" remote="gh" revision="cm-12.1" />
   <project name="jgcaaprom/android_external_sqlite" path="external/sqlite" remote="gh" revision="cm-12.1" />
   <project name="jgcaaprom/android_external_libpng" path="external/libpng" remote="gh" revision="cm-12.1" />
