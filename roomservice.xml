@@ -64,7 +64,7 @@
 
 
 <remove-project name="CyanogenMod/android_packages_apps_Settings" />
-<project path="packages/apps/Settings" name="thanushyon/android_packages_apps_Settings" remote="gh" revision="cm-12.1" />
+<project path="packages/apps/Settings" name="thanushyon/android_packages_apps_Settings" remote="gh" revision="cm-12.1-jgcaap" />
 
 <project path="frameworks/base" name="thanushyon/android_frameworks_base" remote="gh" revision="cm-12.1-jgcaap" />
 
