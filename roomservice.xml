@@ -22,7 +22,7 @@
   <remove-project name="CyanogenMod/android_bootable_recovery" />
   <remove-project name="CyanogenMod/android_bionic" />
   <remove-project name="CyanogenMod/android_external_speex" />
-  <!-- <remove-project name="CyanogenMod/android_external_busybox" /> -->
+  <remove-project name="CyanogenMod/android_external_busybox" />
   <remove-project name="CyanogenMod/android_external_dnsmasq" />
   <remove-project name="CyanogenMod/android_frameworks_ex" />
   <remove-project name="CyanogenMod/android_frameworks_wilhelm" />
@@ -34,7 +34,7 @@
   <project name="jgcaaprom/android_frameworks_ex" path="frameworks/ex" remote="gh" revision="cm-12.1" />
   <project name="jgcaaprom/android_external_stlport" path="external/stlport" remote="gh" revision="cm-12.1" />
   <project name="jgcaaprom/android_external_speex" path="external/speex" remote="gh" revision="cm-12.1" />
-  <!-- <project name="jgcaaprom/android_external_busybox" path="external/busybox" remote="gh" revision="cm-12.1" /> -->
+  <project name="jgcaaprom/android_external_busybox" path="external/busybox" remote="gh" revision="cm-12.1" />
   <project name="jgcaaprom/android_external_iputils" path="external/iputils" remote="gh" revision="cm-12.1" />
   <project name="jgcaaprom/android_bionic" path="bionic" remote="gh" revision="cm-12.1" />
   <project name="jgcaaprom/android_external_bluetooth_bluedroid" path="external/bluetooth/bluedroid" remote="gh" revision="cm-12.1" />
